@@ -1,0 +1,18 @@
+markdown: rdiscount
+pygments: true
+
+# Template Settings
+title: 'Apps and the City Cologne'
+location: '<a href="http://interactive-cologne.com/hack-n-tech-startup.html">Interactive Cologne</a>'
+date: '18./19. Juni 2013'
+
+# Navigation
+navigation:
+- text: 'Beispiele'
+  url: '/#beispiele'
+- text: 'Hack Track'
+  url: '/#hacktrack'
+- text: 'Daten'
+  url: '/daten'
+- text: 'Apps'
+  url: '/apps'
