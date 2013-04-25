@@ -1,0 +1,27 @@
+---
+layout: default
+title: Apps vom Entwicklertag
+---
+
+<div class="row border-row">
+  <div class="span12">
+    <h2>Apps vom Entwicklertag</h2>
+    <ul>
+    Ihr habt eine App aus den Daten entwickelt, die ihr mit allen sharen wollt? <br>
+    Dann ist hier der richtige Ort dafür:<a href="https://github.com/okfde/cologne.appsandthecity/apps">Deine App hinzufügen</a></p>
+    {% for p in site.pages %}
+      {% if p.category contains "app" %}
+      <li id="{{ p.slug }}">
+        {% if p.image %}
+          <a href="{{ p.url }}">
+            <img src="{{ p.image }}" alt="{{ p.title }}" />
+          </a>
+        {% endif %}
+        <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
+        <p>{{ p.description | strip_html | 15 }}</p>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+</div>

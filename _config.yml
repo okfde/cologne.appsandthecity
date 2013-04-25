@@ -3,8 +3,14 @@ pygments: true
 
 # Template Settings
 title: 'Apps and the City Cologne'
-location: '<a href="http://interactive-cologne.com/hack-n-tech-startup.html">Interactive Cologne</a>'
+location:
+- text: 'Interactive Cologne'
+  url: 'http://interactive-cologne.com/hack-n-tech-startup.html'
 date: '18./19. Juni 2013'
+github: 'https://github.com/okfde/cologne.appsandthecity'
+contact: 'jan.brennenstuhl@okfn.org'
+mailinglist: 'http://lists.okfn.org/mailman/listinfo/open-data-nahverkehr'
+
 
 # Navigation
 navigation:
