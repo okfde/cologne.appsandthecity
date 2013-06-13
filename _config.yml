@@ -22,3 +22,5 @@ navigation:
   url: '/daten'
 - text: 'Apps'
   url: '/apps'
+- text: 'Startup Corner'
+  url: '/startup'
